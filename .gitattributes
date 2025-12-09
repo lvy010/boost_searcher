@@ -1,0 +1,15 @@
+# Treat C++ sources explicitly
+*.cpp linguist-language=C++
+*.hpp linguist-language=C++
+*.h   linguist-language=C++
+
+# Mark static/vendor content as vendored 
+www/**            linguist-vendored
+docs/**           linguist-vendored
+png/**            linguist-vendored
+data/**           linguist-vendored
+md/**             linguist-vendored
+*.html            linguist-vendored
+*.css             linguist-vendored
+*.js              linguist-vendored
+
